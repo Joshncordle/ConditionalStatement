@@ -31,6 +31,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Press any key to exit the program...");
                     Console.ReadKey(true);
                 }
+
                 if ((grade <= 97) && (grade >= 92))
                 {
                     //Diplay the letter grade earned by the user
@@ -40,8 +41,9 @@ namespace ConditionalStatement
                     Console.WriteLine("Press any key to exit the program...");
                     Console.ReadKey(true);
                 }
+
                 if ((grade <= 91) && (grade >= 90))
-                    {
+                {
                     //Diplay the letter grade earned by the user
                     Console.WriteLine("You will earn an A-!");
 
@@ -49,6 +51,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Press any key to exit the program...");
                     Console.ReadKey(true);
                 }
+
                 if ((grade <= 88) && (grade >= 89))
                 {
                     //Diplay the letter grade earned by the user
@@ -58,6 +61,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Press any key to exit the program...");
                     Console.ReadKey(true);
                 }
+
                 if ((grade <= 87) && (grade >= 82))
                 {
                     //Diplay the letter grade earned by the user
@@ -67,6 +71,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Press any key to exit the program...");
                     Console.ReadKey(true);
                 }
+
                 if ((grade <= 81) && (grade >= 80))
                 {
                     //Diplay the letter grade earned by the user
@@ -77,6 +82,76 @@ namespace ConditionalStatement
                     Console.ReadKey(true);
                 }
 
+                if ((grade <= 79) && (grade >= 78))
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a C+!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+
+                if ((grade <= 77) && (grade >= 72))
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a C!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+
+                if ((grade <= 71) && (grade >= 70))
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a C-!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+
+                if ((grade <= 69) && (grade >= 68))
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a D+!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+
+                if ((grade <= 67) && (grade >= 62))
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a D!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+
+                if ((grade <= 61) && (grade >= 60))
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a D-!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+
+                if ((grade <= 60)
+                {
+                    //Diplay the letter grade earned by the user
+                    Console.WriteLine("You will earn a F!");
+
+                    //Exit the program
+                    Console.WriteLine("Press any key to exit the program...");
+                    Console.ReadKey(true);
+                }
+            }
             //Recall catch method
             catch
             {
