@@ -142,7 +142,7 @@ namespace ConditionalStatement
                     Console.ReadKey(true);
                 }
 
-                if ((grade <= 60)
+                if (grade < 60)
                 {
                     //Diplay the letter grade earned by the user
                     Console.WriteLine("You will earn a F!");
